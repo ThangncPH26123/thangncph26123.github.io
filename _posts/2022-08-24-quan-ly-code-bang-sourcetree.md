@@ -57,3 +57,23 @@ Hình trên là ѕo ѕánh ѕự thaу đổi của code trong lịch ѕử. Dò
 
 * Và ngay sau đó ở phần Push sẽ hiển thị có thể Push lên Remote
 
+![#######](/assets/img/push.png)
+
+* ### Cách pull code mới từ nhánh chính về branch của mình
+
+* Checkout sang nhánh chính 
+
+![#######](/assets/img/checkoutnhanhchinh.png)
+
+* Ấn vào Pull thực hiện cập nhật code mới nhất từ Remote (Điều này nên được thực hiện mỗi khi pull code từ nhánh chính về branch của mình, tránh trường hợp team khác làm đã merge code mới vào nhánh chính mà mình không thực hiện pull thì sẽ bị thiếu code của team đó)
+
+![#######](/assets/img/pullcode.png)
+
+* Sau khi cập nhật code mới nhất của nhánh chính từ Remote về thì checkout lại branch của mình
+
+![#######](/assets/img/checkoutvenhanhminh.png)
+
+* Ấn chuột phải vào nhánh chính và chọn **"Merge <ten_nhanh_chinh> into current branch"**
+
+![#######](/assets/img/merge.png)
+
