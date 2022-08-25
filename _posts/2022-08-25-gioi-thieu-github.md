@@ -7,7 +7,6 @@ thumbnail-img: /assets/img/github.png
 share-img: /assets/img/path.jpg
 tags: [Giới thiệu Github]
 ---
-* ## Git là gì?
 
 * Git là gì? Git là hệ thống kiểm soát phiên bản phân tán mà nguồn mở ( Open Source Distributed Version Control System). Các dự án thực tế thường có nhiều nhà phát triển làm việc song song. Vì vậy, một hệ thống kiểm soát phiên bản như Git là cần thiết để đảm bảo không có xung đột mã giữa các nhà phát triển. Ngoài ra, các yêu cầu trong dự án thay đổi thường xuyên. Vì vậy, cần một hệ thống cho phép nhà phát triển quay lại phiên bản cũ hơn của mã.
 
@@ -129,17 +128,17 @@ Sau khi các thay đổi hoàn tất, staging area sẽ chứa một hoặc nhi�
 
 * ## Cách Clone project từ Remote về Local
 
-* Cần phải Dowload Git về máy
+* Cần phải **Dowload Git** về máy
 
-* Copy đường link Github của dự án cần Clone
+* Copy đường link Github của dự án cần **Clone**
 
 ![#######](/assets/img/copylink.png)
 
-* Tạo một folder để chứa project chuẩn bị clone, sau đó click chuột phải chọn Git Bash Here
+* Tạo một folder để chứa project chuẩn bị clone, sau đó click chuột phải chọn **Git Bash Here**
 
 ![#######](/assets/img/opengitbash.png)
 
-* Thực hiện lệnh: git clone + tên đường link Github của dự án cần Clone
+* Thực hiện lệnh: **git clone + tên đường link Github** của dự án cần **Clone**
 
 ![#######](/assets/img/opened.png)
 
