@@ -45,71 +45,65 @@ Chúng ta đã nghe tới Git và có thể đã dùng GitHub nhưng chúng ta �
 
 * Các thuật ngữ quan trọng trong Git
 
-1. Kho lưu trữ (Repository)
+* 1. Kho lưu trữ (Repository)
 Kho lưu trữ (thường được gọi là repo) là một tập hợp các mã nguồn. Repo chứa các commit của dự án hoặc một tập hợp các tham chiếu đến các commit (ví dụ như heads).
 
-2. Commit
+* 2. Commit
 Một commit ghi lại một thay đổi hoặc một loạt các thay đổi mà bạn đã thực hiện đối với một file trong repo. Một commit có hash SHA1 duy nhất được sử dụng để theo dõi các file đã thay đổi trong quá khứ. Git History là danh sách một loạt các commit. Sử dụng lệnh commit kết hợp với lệnh git add để cho git biết những thay đổi của bạn và lưu vào kho lưu trữ repositoty.
 
-3. Branch
+* 3. Branch
 Một branch về cơ bản là một tập hợp các mã thay đổi duy nhất với một tên duy nhất. Mỗi repo có thể có một hoặc nhiều branch. Branch chính – branch mà tất cả các thay đổi cuối cùng được merge vào – được gọi là branch master. Đây là phiên bản làm việc chính thức cho dự án của bạn và là phiên bản mà bạn sẽ thấy khi truy cập kho dự án tại github.com/yourname/projectname.
 
-4. Checkout
+* 4. Checkout
 Bạn có thể sử dụng lệnh git checkout để chuyển các branch. Bằng cách nhập git checkout sao tên branch mà bạn muốn chuyển đến hoặc nhập git master để trở về branch chính (master branch).
 
-5. Fork
+* 5. Fork
 Fork là một bản sao của kho lưu trữ (repository). Bạn có thể tận dụng các lợi ích của fork để chạy thử nghiệm các thay đổi mà không ảnh hưởng đến kết quả của dự án.
 
-6. Fetch
+* 6. Fetch
 Sử dụng lệnh git fetchđể tìm nạp các bản sao và tải xuống các tệp branch vào máy tính của bạn. Có thể sử dụng nó lưu các thay đổi mới nhất vào repository và có thể tìm nạp branch cùng một lúc.
 
-7. Head
+* 7. Head
 Head đại diện cho commit mới nhất của repository mà bạn đang làm việc và commit ở đầu của một branch được gọi là head.
 
-8. Index
+* 8. Index
 Khi sử dụng mà bạn thêm, xóa hoặc thay đổi file thì nó vẫn nằm trong mục index cho đến khi bạn sẵn sàng commit các thay đổi. Bạn dùng lệnh git status để xem nội dung index của bạn.
 
-9. Merge
+* 9. Merge
 Lệnh git kết hợp với các yêu cầu kéo (pull request) để thêm các thay đổi từ nhánh này sang nhánh khác.
 
-10. Origin
+* 10. Origin
 Là phiên bản mặc định của repository và origin đóng vai trò đặc biệt để liên lạc với nhánh chính. Lệnh git push origin master để đẩy các thay đổi cục bộ đến nhánh chính.
 
-11. Master
+* 11. Master
 Master là nhánh chính của tất cả các repository, nó bao gồm cả những thay đổi gần đây nhất.
 
-12. Pull
+* 12. Pull
 Pull request thể hiện cho banjc ác đề xuất thay đổi trong nhánh chính. Khi bạn làm việc với một nhóm, bạn có thể tạo các pull request để yêu cầu người bảo trì kho lưu trữ xem xét các thay đổi và hợp nhất chúng.
 
-13. Push
+* 13. Push
 Lệnh git push dùng để cập nhật các nhánh từ xa với những thay đổi mới nhất mà bạn mới commit. 
 
-14. Remote
+* 14. Remote
 Remote (kho lưu trữ từ xa) là một bản sao của một chi nhánh. Remote có thể giao tiếp ngược lại với nhánh gốc (origin branch) của chúng và các remote khác trong kho lưu trữ.
 
-15. Rebase
+* 15. Rebase
 git rebase cho phép bạn phân tách, di chuyển và thoát commit. Và cũng có thể sử dụng nó để kết hợp hai nhánh lại với nhau.
 
-16. Stash
-Nếu bạn muốn loại bỏ các thay đổi khỏi index của bạn và xáo stashes chúng đi sau thì bạn có thể sử dụng lệnh sau:
-
-git stash
-Tiện lợi cho bạn khi bạn muốn tạm dừng công việc hiện tại và làm công việc khác trong một khoảng thời gian. Bạn có thể đặt stash nhiều hơn bộ thay đổi ở cùng một thời điểm.
-
-17. Tags
+* 17. Tags
 Đối với tags, thì nó sẽ cung cấp cho bạn một cách để theo dõi commit quan trọng.
 
-18. Upstream
+* 18. Upstream
 Upstream đề cập đến nơi bạn push các thay đổi của mình và thường là các nhánh chính (master branch).
 
-19. Working directory, staging area và local repo
+* 19. Working directory, staging area và local repo
 Với mỗi local repo có ba virtual zone khác nhau. Đó là:
 
-- Working Directory
+* Working Directory
 Staging area
 commit area
 Working directory là nơi các file mới được tạo, file cũ bị xóa hoặc nơi thực hiện các thay đổi đối với các file đã có. Sau khi thay đổi được thực hiện, chúng sẽ được thêm vào staging area. Do đó, staging area đôi khi còn được gọi là index.
 
-- Sau khi các thay đổi hoàn tất, staging area sẽ chứa một hoặc nhiều file cần được commit. Việc tạo một commit sẽ khiến Git lấy mã mới từ staging area và đưa commit vào repo chính. Sau đó commit này sau đó được chuyển đến commit area.
+* Sau khi các thay đổi hoàn tất, staging area sẽ chứa một hoặc nhiều file cần được commit. Việc tạo một commit sẽ khiến Git lấy mã mới từ staging area và đưa commit vào repo chính. Sau đó commit này sau đó được chuyển đến commit area.
 
 ![#######](/assets/img/addcommit.png)
