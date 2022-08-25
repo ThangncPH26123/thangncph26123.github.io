@@ -28,7 +28,7 @@ Remote repository: là repo được cài đặt trên server chuyên dụng, đ
 Vậy branch là những phân nhánh ghi lại luồng thay đổi của lịch sử, các hoạt động trên mỗi branch sẽ không ảnh hưởng lên các branch khác nên có thể tiến hành nhiều thay đổi đồng thời trên một repository giúp giải quyết nhiều nhiệm vụ cùng lúc.
 Khi bạn tạo một repository thì Git sẽ thiết lập branch mặc định là master, nghĩa là nó sẽ tự tạo một branch master và mọi hoạt động của ban lúc này đều nằm trên branch master.
 
-* ## Github là gì?
+* ## Github là gì? (Phân biệt Git và Github)
 
 Chúng ta đã nghe tới Git và có thể đã dùng GitHub nhưng chúng ta đa phần vẫn nhầm lẫn Git vs GitHub là một bởi vì cứ nói đến Git là nghĩ tới GitHub. Đó là một sự hiểu lầm vì Git như đã giải thích ở trên đó là tên gọi của một mô hình hệ thống, các máy tính có thể clone lại mã nguồn từ một repository , còn GitHub là tên của một công ty cũng cấp dịch vụ máy chủ repository công cộng, mỗi người có thể truy cập vào website trang chủ để tạo tài khoản trên đó và tạo ra kho chứa source của riêng mình khi làm việc.
 
@@ -126,3 +126,22 @@ Working directory là nơi các file mới được tạo, file cũ bị xóa ho
 Sau khi các thay đổi hoàn tất, staging area sẽ chứa một hoặc nhiều file cần được commit. Việc tạo một commit sẽ khiến Git lấy mã mới từ staging area và đưa commit vào repo chính. Sau đó commit này sau đó được chuyển đến commit area.
 
 ![#######](/assets/img/addcommit.png)
+
+* ## Cách Clone project từ Remote về Local
+
+* Cần phải Dowload Git về máy
+
+* Copy đường link Github của dự án cần Clone
+
+![#######](/assets/img/copylink.png)
+
+* Tạo một folder để chứa project chuẩn bị clone, sau đó click chuột phải chọn Git Bash Here
+
+![#######](/assets/img/opengitbash.png)
+
+* Thực hiện lệnh: git clone + tên đường link Github của dự án cần Clone
+
+![#######](/assets/img/opened.png)
+
+* Và chúng ta sẽ có 1 project được lấy từ Remote về
+
