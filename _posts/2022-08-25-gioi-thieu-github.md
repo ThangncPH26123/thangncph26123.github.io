@@ -75,13 +75,9 @@ Lệnh git kết hợp với các yêu cầu kéo (pull request) để thêm cá
 10. Origin
 Là phiên bản mặc định của repository và origin đóng vai trò đặc biệt để liên lạc với nhánh chính. Lệnh git push origin master để đẩy các thay đổi cục bộ đến nhánh chính.
 
-origin git
-Origin Git
 11. Master
 Master là nhánh chính của tất cả các repository, nó bao gồm cả những thay đổi gần đây nhất.
 
-git master
-Master
 12. Pull
 Pull request thể hiện cho banjc ác đề xuất thay đổi trong nhánh chính. Khi bạn làm việc với một nhóm, bạn có thể tạo các pull request để yêu cầu người bảo trì kho lưu trữ xem xét các thay đổi và hợp nhất chúng.
 
