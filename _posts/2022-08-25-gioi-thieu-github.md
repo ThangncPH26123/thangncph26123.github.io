@@ -115,3 +115,5 @@ commit area
 Working directory là nơi các file mới được tạo, file cũ bị xóa hoặc nơi thực hiện các thay đổi đối với các file đã có. Sau khi thay đổi được thực hiện, chúng sẽ được thêm vào staging area. Do đó, staging area đôi khi còn được gọi là index.
 
 - Sau khi các thay đổi hoàn tất, staging area sẽ chứa một hoặc nhiều file cần được commit. Việc tạo một commit sẽ khiến Git lấy mã mới từ staging area và đưa commit vào repo chính. Sau đó commit này sau đó được chuyển đến commit area.
+
+![#######](/assets/img/addcommit.png)
