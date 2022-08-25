@@ -65,7 +65,7 @@ Hình trên là ѕo ѕánh ѕự thaу đổi của code trong lịch ѕử. Dò
 
 ![#######](/assets/img/checkoutnhanhchinh.png)
 
-* Ấn vào Pull thực hiện cập nhật code mới nhất từ Remote (Điều này nên được thực hiện mỗi khi pull code từ nhánh chính về branch của mình, tránh trường hợp team khác làm đã merge code mới vào nhánh chính mà mình không thực hiện pull thì sẽ bị thiếu code của team đó)
+* Ấn vào Pull thực hiện cập nhật code mới nhất từ Remote **(Điều này nên được thực hiện mỗi khi pull code từ nhánh chính về branch của mình, tránh trường hợp team khác làm đã merge code mới vào nhánh chính mà mình không thực hiện pull thì sẽ bị thiếu code của team đó)**
 
 ![#######](/assets/img/pullcode.png)
 
@@ -73,7 +73,11 @@ Hình trên là ѕo ѕánh ѕự thaу đổi của code trong lịch ѕử. Dò
 
 ![#######](/assets/img/checkoutvenhanhminh.png)
 
-* Ấn chuột phải vào nhánh chính và chọn **"Merge <ten_nhanh_chinh> into current branch"**
+* Ấn chuột phải vào nhánh chính và chọn "**Merge <ten_nhanh_chinh> into current branch**"
 
 ![#######](/assets/img/merge.png)
+
+* ### Cách merge code từ branch của mình vào nhánh chính
+
+
 
