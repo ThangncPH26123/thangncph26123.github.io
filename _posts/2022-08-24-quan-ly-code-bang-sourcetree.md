@@ -73,7 +73,7 @@ Hình trên là ѕo ѕánh ѕự thaу đổi của code trong lịch ѕử. Dò
 
 ![#######](/assets/img/checkoutvenhanhminh.png)
 
-* Ấn chuột phải vào nhánh chính và chọn "**Merge <ten_nhanh_chinh> into current branch**"
+* Ấn chuột phải vào nhánh chính và chọn "**Merge 'ten_nhanh_chinh' into current branch**"
 
 ![#######](/assets/img/merge.png)
 
