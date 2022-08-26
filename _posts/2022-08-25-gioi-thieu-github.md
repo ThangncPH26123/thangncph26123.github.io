@@ -130,6 +130,14 @@ Sau khi các thay đổi hoàn tất, staging area sẽ chứa một hoặc nhi�
 
 **Pull request** được tạo ra để đưa những file source code của bạn lên 1 host chung nơi mọi người có quyền truy cập sẽ truy cập vào và cùng review, để lại comment trên những file source code đó.
 
+* ### Conflict trong Git là gì?
+
+Conflict nghĩa là xung đột. Trong một hệ thống kiểm soát nguồn như Git, xung đột có thể xảy ra khi hai hoặc nhiều người thay đổi cùng một tệp. Các xung đột có thể xuất hiện tại kho lưu trữ cục bộ của thành viên hoặc kho lưu trữ từ xa Github.
+
+* ### Giải quyết conflict
+
+Trong lúc làm dữ án sẽ xảy ra trường hợp nhiều người làm chung 1 file nên sẽ xảy ra conflict và cách giải quyết là sẽ họp với nhau và thống nhất giữ lại phần nào và bỏ những đi phần thừa (chủ yếu là thư viện)
+
 * ## Cách Clone project từ Remote về Local
 
 * Cần phải **Dowload Git** về máy
@@ -176,6 +184,8 @@ Sau khi các thay đổi hoàn tất, staging area sẽ chứa một hoặc nhi�
 * B7: Sau khi kiểm tra xong thì click vào **Merge pull request**
 
 ![#######](/assets/img/mergepull.png)
+
+
 
 
 
