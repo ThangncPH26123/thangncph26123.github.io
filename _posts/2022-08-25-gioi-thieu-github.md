@@ -152,7 +152,7 @@ Sau khi các thay đổi hoàn tất, staging area sẽ chứa một hoặc nhi�
 
 * B1: Sau khi code xong nhiệm vụ của mình các bạn cần phải push code lên branch riêng của mình, và công việc tiếp theo cần làm đó là merge code từ branch của mình vào branch chính.
 
-* B2: Click vào phần pull request -> Click vào New pull request
+* B2: Click vào phần pull request -> Click vào **New pull request**
 
 ![#######](/assets/img/pullrequest.png)
 
