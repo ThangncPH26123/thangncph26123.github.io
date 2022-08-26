@@ -169,6 +169,7 @@ Sau khi các thay đổi hoàn tất, staging area sẽ chứa một hoặc nhi�
 ![#######](/assets/img/datten.png)
 
 * B6: Click vào mục File Change để xem những file đã thay đổi (**Lưu ý chỉ nên chỉnh sửa những file có liên quan đến công việc code của mình, nếu thay đổi nhưng file không liên quan, khi merge code sẽ gây ra conflict**)
+-> Thực hiện review code (**convention, requirement ...**), kiểm tra và sửa hết các vấn đề trước khi thực hiện **Merge pull request**
 
 ![#######](/assets/img/filechange.png)
 
