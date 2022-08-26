@@ -126,6 +126,10 @@ Sau khi các thay đổi hoàn tất, staging area sẽ chứa một hoặc nhi�
 
 ![#######](/assets/img/addcommit.png)
 
+* ### Pull Request
+
+**Pull request** được tạo ra để đưa những file source code của bạn lên 1 host chung nơi mọi người có quyền truy cập sẽ truy cập vào và cùng review, để lại comment trên những file source code đó.
+
 * ## Cách Clone project từ Remote về Local
 
 * Cần phải **Dowload Git** về máy
@@ -143,4 +147,34 @@ Sau khi các thay đổi hoàn tất, staging area sẽ chứa một hoặc nhi�
 ![#######](/assets/img/opened.png)
 
 * Và chúng ta sẽ có 1 project được lấy từ Remote về
+
+* ## Cách tạo 1 Pull Request 
+
+* B1: Sau khi code xong nhiệm vụ của mình các bạn cần phải push code lên branch riêng của mình, và công việc tiếp theo cần làm đó là merge code từ branch của mình vào branch chính.
+
+* B2: Click vào phần pull request -> Click vào New pull request
+
+![#######](/assets/img/pullrequest.png)
+
+* B3: Chọn branch mà bạn muốn, bên trái là branch chính, bên phải là branch riêng của bạn
+
+![#######](/assets/img/newpullrequest.png)
+
+* B4: Sau khi chọn branch xong -> Click chọn **Create pull request** 
+
+![#######](/assets/img/createpullrequest.png)
+
+* B5: Đặt tên cho pull request (tên công việc bạn đã làm) -> Click chọn **Create pull request** 
+
+![#######](/assets/img/datten.png)
+
+* B6: Click vào mục File Change để xem những file đã thay đổi (**Lưu ý chỉ nên chỉnh sửa những file có liên quan đến công việc code của mình, nếu thay đổi nhưng file không liên quan, khi merge code sẽ gây ra conflict**)
+
+![#######](/assets/img/filechange.png)
+
+* B7: Sau khi kiểm tra xong thì click vào **Merge pull request**
+
+![#######](/assets/img/mergepull.png)
+
+
 
